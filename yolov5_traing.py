@@ -23,3 +23,11 @@ project = rf.workspace("kripya-solutions").project("summa-uxs0d")
 dataset = project.version(1).download("yolov5")
 
 !python train.py --data coco128.yaml --epochs 10 --weights '' --cfg yolov5x.yaml  --batch-size 128
+
+#https://universe.roboflow.com/proyek/celurit
+# https://universe.roboflow.com/stphane-dossou/suspect-object-detect
+# https://universe.roboflow.com/sym-ouszq/stabbing_knife_deploy
+
+# https://universe.roboflow.com/maheshchhetri/sword_detection
+
+# https://universe.roboflow.com/search?q=machete&p=1
